@@ -35,7 +35,7 @@ data set was cleaned as no null values present
  
 
 >> training of model 
-used logistic regression
+used logistic regression gives better accuracy in compare to random forest regression 
 >>model evaluation
 Accuracy on training data : 0.8512396694214877
 
