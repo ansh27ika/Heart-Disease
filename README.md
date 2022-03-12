@@ -15,29 +15,48 @@ from sklearn.metrics import accuracy_score
 >>columns in dataset(303rows, 14cols)
 
 1.age
+
 2.sex	
-3.cp	
-4.trestbps	
-5.chol	
-6.fbs	
-7.restecg	
-8.thalach	
+
+3.cp
+
+4.trestbps
+
+5.chol
+
+6.fbs
+
+7.restecg
+
+8.thalach
+
 9.exang	
-10.oldpeak	
-11.slope	
-12.ca	
-13.thal	
+
+10.oldpeak
+
+11.slope
+
+12.ca
+
+13.thal
+
 14.target
 
 >>DATASET
 heart.csv file taken as a dataset from kaggle
 data set was cleaned as no null values present
  
-
+>>OBSERVATION 
 >> training of model 
 used logistic regression gives better accuracy in compare to random forest regression 
 >>model evaluation
 Accuracy on training data : 0.8512396694214877
+>> on checking the distribution of data 
+1. on the basis of AGE : normal distribution
+2. on the basis of OLDPEAK : RIGHT SKEWED
+3. on the basis of SEX : normal
+4. on the basis of cp: right skewed 
+5. on the basis of slope: normal
 
 Feature extraction
 A feature extraction method was performed using Classifier Subset Evaluator by applying a training classification data 
